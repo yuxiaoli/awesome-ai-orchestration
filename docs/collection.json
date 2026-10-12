@@ -1,0 +1,161 @@
+{
+  "defaultLocale": "en",
+  "title": {
+    "en": "Awesome AI Orchestration",
+    "zh-CN": "AI 编排精选项目",
+    "zh-HK": "AI 編排精選項目"
+  },
+  "description": {
+    "en": "A curated collection of platforms, frameworks, and workflow engines for coordinating AI agents, delegating tasks, and executing agent workflows.",
+    "zh-CN": "精选用于协调 AI 智能体、委派任务和执行智能体工作流的平台、框架及工作流引擎。",
+    "zh-HK": "精選用於協調 AI 智能體、委派任務及執行智能體工作流程的平台、框架與工作流程引擎。"
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Agent coordination and runtime platforms",
+        "zh-CN": "智能体协调与运行平台",
+        "zh-HK": "智能體協調與執行平台"
+      },
+      "description": {
+        "en": "Platforms that coordinate agent runtimes, task delegation, or agent teams through shared workspaces and communication channels.",
+        "zh-CN": "通过共享工作空间和通信渠道，协调智能体运行、任务委派或智能体团队的平台。",
+        "zh-HK": "透過共用工作空間及通訊渠道，協調智能體執行、任務委派或智能體團隊的平台。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Buzz",
+            "zh-CN": "Buzz",
+            "zh-HK": "Buzz"
+          },
+          "url": "https://github.com/block/buzz",
+          "description": {
+            "en": "Workspace for humans and AI agents with an ACP harness that dispatches channel events, manages an agent process pool, and restarts crashed agents.",
+            "zh-CN": "面向人类与 AI 智能体的工作空间，其 ACP 运行层负责分发频道事件、管理智能体进程池，并重启崩溃的智能体进程。",
+            "zh-HK": "面向人類與 AI 智能體的工作空間，其 ACP 執行層負責分發頻道事件、管理智能體程序池，並重新啟動崩潰的智能體程序。"
+          }
+        },
+        {
+          "name": {
+            "en": "Multica",
+            "zh-CN": "Multica",
+            "zh-HK": "Multica"
+          },
+          "url": "https://github.com/multica-ai/multica",
+          "description": {
+            "en": "Self-hostable workspace for assigning and coordinating coding agents, with leader-led squads, task handoffs, execution logs, and human review.",
+            "zh-CN": "可自行托管的工作空间，用于分配和协调编程智能体，支持由领队带领的团队、任务移交、执行日志及人工审核。",
+            "zh-HK": "可自行託管的工作空間，用於分配及協調程式編寫智能體，支援由領隊帶領的團隊、任務移交、執行記錄及人工審核。"
+          }
+        },
+        {
+          "name": {
+            "en": "Omnigent",
+            "zh-CN": "Omnigent",
+            "zh-HK": "Omnigent"
+          },
+          "url": "https://github.com/omnigent-ai/omnigent",
+          "description": {
+            "en": "Orchestration layer for coding agents and custom agents, supporting mixed runtimes, supervisor delegation, shared sessions, and policy controls.",
+            "zh-CN": "面向编程智能体和自定义智能体的编排层，支持混合运行环境、主管智能体委派、共享会话和策略控制。",
+            "zh-HK": "面向程式編寫智能體及自訂智能體的編排層，支援混合執行環境、主管智能體委派、共用工作階段及策略控制。"
+          }
+        },
+        {
+          "name": {
+            "en": "JiuwenSwarm",
+            "zh-CN": "JiuwenSwarm",
+            "zh-HK": "JiuwenSwarm"
+          },
+          "url": "https://github.com/openJiuwen-ai/jiuwenswarm",
+          "description": {
+            "en": "Multi-agent system with leader-led task decomposition, dependency management, parallel team execution, and multistage SwarmFlow workflows.",
+            "zh-CN": "多智能体系统，支持由领队主导的任务分解、依赖管理、团队并行执行和多阶段 SwarmFlow 工作流。",
+            "zh-HK": "多智能體系統，支援由領隊主導的任務分解、相依關係管理、團隊並行執行及多階段 SwarmFlow 工作流程。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Agent frameworks",
+        "zh-CN": "智能体框架",
+        "zh-HK": "智能體框架"
+      },
+      "description": {
+        "en": "Frameworks for building AI orchestration in code, including agent delegation, team coordination, and composable workflow control.",
+        "zh-CN": "用于以代码构建 AI 编排的框架，涵盖智能体委派、团队协调和可组合的工作流控制。",
+        "zh-HK": "用於以程式碼建構 AI 編排的框架，涵蓋智能體委派、團隊協調及可組合的工作流程控制。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Agno",
+            "zh-CN": "Agno",
+            "zh-HK": "Agno"
+          },
+          "url": "https://github.com/agno-agi/agno",
+          "description": {
+            "en": "Python framework for coordinating agent teams and composing agents, teams, and functions into workflows with shared state and human approval.",
+            "zh-CN": "Python 框架，用于协调智能体团队，并将智能体、团队和函数组合为支持共享状态与人工审批的工作流。",
+            "zh-HK": "Python 框架，用於協調智能體團隊，並將智能體、團隊及函式組合為支援共用狀態與人工審批的工作流程。"
+          }
+        },
+        {
+          "name": {
+            "en": "Pydantic AI",
+            "zh-CN": "Pydantic AI",
+            "zh-HK": "Pydantic AI"
+          },
+          "url": "https://github.com/pydantic/pydantic-ai",
+          "description": {
+            "en": "Typed Python agent framework supporting tool-based delegation, programmatic handoffs, graph-based control flow, and durable workflow execution.",
+            "zh-CN": "具备类型支持的 Python 智能体框架，支持通过工具委派任务、以代码移交控制权、图式控制流和持久化工作流执行。",
+            "zh-HK": "具備型別支援的 Python 智能體框架，支援透過工具委派任務、以程式碼移交控制權、圖式控制流程及持久化工作流程執行。"
+          }
+        },
+        {
+          "name": {
+            "en": "PraisonAI",
+            "zh-CN": "PraisonAI",
+            "zh-HK": "PraisonAI"
+          },
+          "url": "https://github.com/MervinPraison/PraisonAI",
+          "description": {
+            "en": "Agent framework for building multi-agent workflows with task handoffs, routing, parallel execution, loops, and Python or YAML configuration.",
+            "zh-CN": "用于构建多智能体工作流的框架，支持任务移交、路由、并行执行、循环，以及 Python 或 YAML 配置。",
+            "zh-HK": "用於建構多智能體工作流程的框架，支援任務移交、路由、並行執行、迴圈，以及 Python 或 YAML 設定。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Durable workflow engines",
+        "zh-CN": "持久化工作流引擎",
+        "zh-HK": "持久化工作流程引擎"
+      },
+      "description": {
+        "en": "Engines that persist AI workflow state and coordinate agent steps, tool calls, approvals, and recovery across failures.",
+        "zh-CN": "持久化保存 AI 工作流状态的引擎，用于协调智能体步骤、工具调用和审批，并支持故障恢复。",
+        "zh-HK": "持久化儲存 AI 工作流程狀態的引擎，用於協調智能體步驟、工具呼叫及審批，並支援故障復原。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Conductor",
+            "zh-CN": "Conductor",
+            "zh-HK": "Conductor"
+          },
+          "url": "https://github.com/conductor-oss/conductor",
+          "description": {
+            "en": "Durable workflow engine for AI agents, combining LLM tasks and MCP tool calls with branching, parallel execution, human approvals, and retries.",
+            "zh-CN": "面向 AI 智能体的持久化工作流引擎，将大语言模型任务和 MCP 工具调用与分支、并行执行、人工审批及重试相结合。",
+            "zh-HK": "面向 AI 智能體的持久化工作流程引擎，將大型語言模型任務及 MCP 工具呼叫與分支、並行執行、人工審批及重試結合。"
+          }
+        }
+      ]
+    }
+  ]
+}
